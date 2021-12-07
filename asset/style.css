@@ -1,0 +1,44 @@
+
+.header{
+    background-color: rgb(94, 151, 9);
+    padding: 1rem 5%;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    background-color: honeydew;
+    border-radius: 1rem;
+}
+
+
+
+
+.header h1 a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.header h2 {
+    color: blue;
+    text-align: center;
+}
+.navigation{
+    padding: 1rem;
+}
+.menu {
+    display: flex; 
+    align-items: center;
+    list-style: none;
+    background-color: rgb(94, 151, 9);
+    border-radius: 0.5rem;
+}
+.menu-item a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 0.5rem;
+  }
