@@ -15,12 +15,36 @@
                     Answer the following questions to determine if someone is an:
                 </h3>
                 <h5>How do you talk Animals:</h5>
+                <select id="question1" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="a1">I can't talk to animals</option>
+                    <option value="a2">I can talk to some animals</option>
+                    <option value="a3">Talking to animals is simple</option>
+                  </select>
                 <h5>Do you eat?</h5>
+                <select id="question2" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="b1">I eat acid</option>
+                    <option value="b2">I don't eat anything</option>
+                    <option value="b3">I eat meat, fish, vegetables</option>
+                  </select>
                 <h5>How do you feel about the movie wall-e</h5>
+                <select id="question3" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="c1">I like this movie</option>
+                    <option value="c2">I haven't seen this movie yet</option>
+                    <option value="c3">I feel funny</option>
+                  </select>
                 </div>
-            <div class="col-md-6"><h3 class="text-primary">Result</h3></div>
+            <div class="col-md-6">
+                <h3 class="text-primary">Result</h3>
+                <h3 id="title-answer"></h3>
+                <h4 id="text-answer"></h4>
+                <img id="img" src="" alt="">
+            </div>
         </div>
-        <button class="button" style="border-radius: 0.2rem;">Determind</button>
+        <br>
+        <button id="button" style="border-radius: 0.2rem;">Determind</button>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

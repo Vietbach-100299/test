@@ -20,14 +20,14 @@
   color: black;
   text-align: center;
 }
-.header h2 {
+.header h2{
     color: blue;
     text-align: center;
 }
 .navigation{
     padding: 1rem;
 }
-.menu {
+.menu{
     display: flex; 
     align-items: center;
     list-style: none;
